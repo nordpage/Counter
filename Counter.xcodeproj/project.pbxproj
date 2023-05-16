@@ -13,6 +13,8 @@
 		A7B843692A137FA000606DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B843672A137FA000606DAD /* Main.storyboard */; };
 		A7B8436B2A137FA100606DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7B8436A2A137FA100606DAD /* Assets.xcassets */; };
 		A7B8436E2A137FA100606DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7B8436C2A137FA100606DAD /* LaunchScreen.storyboard */; };
+		A7B8437B2A13B72D00606DAD /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8437A2A13B72D00606DAD /* Date.swift */; };
+		A7B8437D2A13B76200606DAD /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7B8437C2A13B76200606DAD /* UITextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A7B8436A2A137FA100606DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7B8436D2A137FA100606DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7B8436F2A137FA100606DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7B8437A2A13B72D00606DAD /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		A7B8437C2A13B76200606DAD /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		A7B843602A137FA000606DAD /* Counter */ = {
 			isa = PBXGroup;
 			children = (
+				A7B843792A13B70200606DAD /* Extensions */,
 				A7B843612A137FA000606DAD /* AppDelegate.swift */,
 				A7B843632A137FA000606DAD /* SceneDelegate.swift */,
 				A7B843652A137FA000606DAD /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				A7B8436F2A137FA100606DAD /* Info.plist */,
 			);
 			path = Counter;
+			sourceTree = "<group>";
+		};
+		A7B843792A13B70200606DAD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7B8437A2A13B72D00606DAD /* Date.swift */,
+				A7B8437C2A13B76200606DAD /* UITextView.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +154,9 @@
 			files = (
 				A7B843662A137FA000606DAD /* ViewController.swift in Sources */,
 				A7B843622A137FA000606DAD /* AppDelegate.swift in Sources */,
+				A7B8437D2A13B76200606DAD /* UITextView.swift in Sources */,
 				A7B843642A137FA000606DAD /* SceneDelegate.swift in Sources */,
+				A7B8437B2A13B72D00606DAD /* Date.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
